@@ -198,3 +198,9 @@ footer li:last-child:after {
 @media ( max-width: 600px ) {
     article, aside  { order: 2; flex: 100%; }
 }
+
+@media only screen and ( max-width: 480px ) {
+    .menu-footer {
+        flex-direction: column;
+    }
+}
